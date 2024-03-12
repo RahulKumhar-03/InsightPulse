@@ -3,7 +3,7 @@ import NewsItem from './NewsItem'
 import Spinner from './Spinner';
 import PropTypes from 'prop-types'
 import InfiniteScroll from 'react-infinite-scroll-component';
-
+import { motion } from 'framer-motion'
 
 const News = (props) => {
   const [articles, setArticles] = useState([])
@@ -39,7 +39,10 @@ const News = (props) => {
  }
 
     return (
-       <>
+       <motion.div initial={{width:0,opacity:0}} 
+       animate={{width: "100%",opacity:1}} 
+       exit={{x:"100%",opacity:0, transition:{duration: 0.5}}}
+       >
         <h1 className='text-center' style={{margin:'35px 0px', marginTop:'90px'}}>NewsMonkey - Top {capitalLize(props.category)} Headlines</h1>
         {loading && <Spinner/>}
         <InfiniteScroll
@@ -65,7 +68,7 @@ const News = (props) => {
         </div>
         </div> 
         </InfiniteScroll>
-        </>
+        </motion.div>
     );
   }
 
