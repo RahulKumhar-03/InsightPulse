@@ -6,9 +6,8 @@ const App = () => {
 
     return (
       <div>
-      
         <Navbar/>
-          <AnimateFIle/>
+        <AnimateFIle/>
       </div>
     )
   }
