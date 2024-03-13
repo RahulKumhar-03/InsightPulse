@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/InsightPulse/static/css/main.31d6cfe0.css",
+    "main.js": "/InsightPulse/static/js/main.dff07850.js",
+    "static/js/592.d53f2e83.chunk.js": "/InsightPulse/static/js/592.d53f2e83.chunk.js",
+    "static/media/loading.gif": "/InsightPulse/static/media/loading.d3fbaf2b81fd92c49692.gif",
+    "index.html": "/InsightPulse/index.html",
+    "main.dff07850.js.map": "/InsightPulse/static/js/main.dff07850.js.map",
+    "592.d53f2e83.chunk.js.map": "/InsightPulse/static/js/592.d53f2e83.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.dff07850.js"
+  ]
+}
